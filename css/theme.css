@@ -22,9 +22,9 @@ body {
 
 .shadowbox-centered {
   text-align: right;
-  width: 100 auto;
-  padding: 200px;
+  margin-top: 200px;
   border-style: none;
+  background-color: rgba(0,0,0,0.85);
 }
 
 .link-to-modal {
@@ -32,9 +32,8 @@ body {
   padding: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 50%;
   height: 200px;
-  background-color: rgba(0,0,0,0.85);
   font-family: 'Helvetica';
   color: #ffffff;
 }
@@ -100,6 +99,16 @@ body {
 
 img {
   height: auto;
-  max-width: 250px;
+  max-width: 300px;
   border-radius: 10px;
+}
+
+.left-side-image {
+  float: left;
+}
+
+.right-side-text {
+  float: right;
+  width: 50%;
+  padding: 10px;
 }
